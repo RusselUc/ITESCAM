@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ITESCAM</string>
+    <string name="welcome">Bienvenido a tu portal</string>
+    <string name="login">Inicia sesión</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="singIn">Ingresar</string>
+    <string name="remember">Recuerdame</string>
 </resources>

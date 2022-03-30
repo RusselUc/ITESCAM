@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.dashboard">
+
+    <!--<LinearLayout
+       android:id="@+id/linearLayout"
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       android:orientation="vertical"
+       android:weightSum="1"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHeight_percent="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="0.5"
+           android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/textView3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="0.5"
+               android:fontFamily="@font/poppins_bold"
+               android:gravity="center_horizontal"
+               android:text="@string/app_name"
+               android:textColor="@color/black"
+               android:textSize="@dimen/subtitles" />
+       </LinearLayout>
+
+   </LinearLayout> -->
+
+   <!-- <View
+        android:id="@+id/topView"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bg_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/viewWave"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topView" /> -->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/app_name"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="@dimen/subtitles"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="50dp"
+        android:alpha="0"
+        android:background="@drawable/bg_et"
+        android:elevation="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <EditText
+            android:id="@+id/userEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:maxLength="4"
+            android:ems="10"
+            android:hint="@string/user"
+            android:drawableRight="@drawable/ic_baseline_perm_identity_24"
+            android:inputType="textPersonName"
+            android:padding="24sp" />
+
+        <EditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:padding="24sp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:text="@string/remember"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearEdt" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:alpha="0"
+        android:background="@drawable/bg_btn_pink"
+        android:padding="17dp"
+        android:text="@string/singIn"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkRemember"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <!--<ImageView
+        android:id="@+id/logoLogin"
+        android:layout_width="207dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="128dp"
+        android:alpha="0"
+        android:elevation="20dp"
+        android:translationY="-200dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearEdt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.691"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_logo" /> -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
