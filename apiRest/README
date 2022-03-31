@@ -1,0 +1,16 @@
+Para trabajar correctamente con el API es necesario usar el entorno virtual
+de python.
+
+para activar el entorno virtual escriben en la terminal:
+
+    .\env\Scripts\activate
+
+para desativarlo ejecutar:
+    deactivate
+
+Esto activará el entorno, por consiguiente es necesario descargar las dependencias o
+librerias que el proyecto tenga, para eso esta el archivo "requeriments.txt", este archivo se 
+ejecuta con el siguiente comando:
+
+    pip install -r requirements.txt
+
