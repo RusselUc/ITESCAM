@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ITESCAM">
         <activity
+            android:name=".view.ControlEscolar"
+            android:exported="false" />
+        <activity
             android:name=".view.LoginActivity"
             android:exported="false" />
         <activity
@@ -17,8 +20,7 @@
             android:exported="false" />
         <activity
             android:name=".view.MainActivity"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
