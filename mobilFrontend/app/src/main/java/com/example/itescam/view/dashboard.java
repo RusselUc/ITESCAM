@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.example.itescam.R;
 
@@ -15,6 +16,8 @@ public class dashboard extends AppCompatActivity {
     LinearLayout menu;
     LinearLayout layoutHorario, btnProfile;
 
+    LinearLayout syllabus;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +26,7 @@ public class dashboard extends AppCompatActivity {
         //logo = findViewById(R.id.logoDashboard);
         menu = findViewById(R.id.llmenu);
 
+<<<<<<< HEAD
         layoutHorario = findViewById(R.id.layoutHorario);
         btnProfile = findViewById(R.id.btnProfile);
 
@@ -41,7 +45,24 @@ public class dashboard extends AppCompatActivity {
         });
 
         //animation_view(logo);
+=======
+        syllabus = findViewById(R.id.btnSyllabus);
+
+        syllabus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToSyllabus();
+            }
+        });
+
+        animation_view(logo);
+>>>>>>> Miguel
         animation_view(menu);
+    }
+
+    public void goToSyllabus() {
+        Intent i = new Intent(this, ControlEscolar.class);
+        startActivity(i);
     }
 
     public void animation_view(View view){

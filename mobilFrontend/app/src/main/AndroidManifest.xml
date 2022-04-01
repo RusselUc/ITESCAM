@@ -16,6 +16,9 @@
             android:name=".view.HorarioActivity"
             android:exported="false" />
         <activity
+            android:name=".view.ControlEscolar"
+            android:exported="false" />
+        <activity
             android:name=".view.LoginActivity"
             android:exported="false" />
         <activity

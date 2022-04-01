@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Miguel/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/activity_control_escolar.xml" value="0.33" />
+        <entry key="..\:/Users/Miguel/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/russe/AndroidStudioProjects/ITESCAM/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/bg_black.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/bg_blue.xml" value="0.1425" />
@@ -46,7 +48,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
