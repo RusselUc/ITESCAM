@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/russe/AndroidStudioProjects/ITESCAM/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/bg_black.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/bg_blue.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/bg_btn_pink.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/bg_edt.xml" value="0.1435" />
@@ -17,8 +18,12 @@
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/card.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/card_bottom.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/content_wave.xml" value="0.1425" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/gradientbackgroud.xml" value="0.1945" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_add_img.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_back_img.xml" value="0.1425" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1945" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_baseline_library_books_24.xml" value="0.1945" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1945" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_facebook.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_google_plus.xml" value="0.1425" />
@@ -29,8 +34,15 @@
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_side_bg.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/ic_wave.xml" value="0.1425" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/activity_horario.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/activity_profile.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/fragment_friday.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/fragment_monday1.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/fragment_thuersday.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/fragment_tuesday.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/russe/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/fragment_wednesday.xml" value="0.18645833333333334" />
       </map>
     </option>
   </component>

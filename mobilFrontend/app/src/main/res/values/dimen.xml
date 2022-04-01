@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="subtitles">40dp</dimen>
-    <dimen name="text">24dp</dimen>
+    <dimen name="subtitles">40sp</dimen>
+    <dimen name="text">24sp</dimen>
+    <dimen name="textDashboard">16sp</dimen>
 </resources>

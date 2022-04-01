@@ -16,4 +16,9 @@
     <color name="purple">#2c3e50</color>
     <color name="pink">#e41976</color>
 
+    <color name="colorPrimaryDrak">#292b3d</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+
 </resources>

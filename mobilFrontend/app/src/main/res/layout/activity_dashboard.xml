@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_layout"
     tools:context=".view.dashboard">
 
     <TextView
@@ -12,29 +11,56 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
-
-        android:textColor="@color/white"
-        android:textSize="34sp"
+        android:text="@string/welcome"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:textSize="@dimen/subtitles"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/today"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:contentPadding="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv2">
+
+    </androidx.cardview.widget.CardView>
+
+    <!--<ImageView
         android:id="@+id/logoDashboard"
         android:layout_width="240dp"
         android:layout_height="241dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:alpha="0"
-        android:src="@drawable/ic_itescam"
-        android:translationY="-200dp"
+        android:alpha="1"
+        android:src="@drawable/ic_logo"
+        android:translationY="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />-->
 
     <LinearLayout
         android:id="@+id/llmenu"
@@ -42,8 +68,9 @@
         android:layout_height="350dp"
         android:background="@drawable/bg_menu"
         android:orientation="vertical"
-        android:alpha="0"
-        android:translationY="200dp"
+        android:elevation="100dp"
+        android:alpha="1"
+        android:translationY="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -59,7 +86,7 @@
             android:paddingBottom="24dp">
 
             <LinearLayout
-                android:id="@+id/btncheck"
+                android:id="@+id/btnProfile"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -70,29 +97,36 @@
                     android:layout_height="120dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/bg_green"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/bg_black"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:layout_marginBottom="18dp" />
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/ic_usuario"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="12dp"
-
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:layout_marginLeft="0dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/profile"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textDashboard" />
                 </LinearLayout>
             </LinearLayout>
 
 
             <!--Aqui termina el check-->
             <LinearLayout
+                android:id="@+id/layoutHorario"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -103,23 +137,27 @@
                     android:layout_height="120dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/bg_reed"
+                    android:background="@drawable/bg_black"
+                    android:gravity="center_horizontal"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:layout_marginBottom="18dp" />
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/ic_horarios"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="12dp"
-
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:layout_marginLeft="0dp"
+                        android:text="@string/hour"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
                 </LinearLayout>
             </LinearLayout>
             <!--Separación-->
@@ -134,23 +172,27 @@
                     android:layout_height="120dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/bg_yellow"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/bg_black"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="12dp"
-                        android:layout_marginBottom="18dp" />
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/ic_libros" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="12dp"
-
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:layout_marginLeft="0dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/syllabus"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textDashboard" />
                 </LinearLayout>
             </LinearLayout>
             <!--Separación-->
@@ -178,23 +220,28 @@
                     android:layout_height="120dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/bg_purple"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/bg_black"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:layout_marginBottom="18dp" />
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/ic_quiz"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="12dp"
-
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/control"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textDashboard" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -211,23 +258,27 @@
                     android:layout_height="120dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/bg_kingblue"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/bg_black"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:layout_marginBottom="18dp" />
+                        android:layout_marginBottom="1dp"
+                        android:src="@drawable/ic_periodico"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="12dp"
-
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:layout_marginLeft="0dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/notices"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textDashboard" />
                 </LinearLayout>
             </LinearLayout>
             <!--Separación-->
@@ -242,23 +293,28 @@
                     android:layout_height="120dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/bg_blue"
+                    android:background="@drawable/bg_black"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:layout_marginBottom="18dp" />
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/ic_cerrar"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="12dp"
-
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/logOut"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textDashboard" />
                 </LinearLayout>
             </LinearLayout>
             <!--Separación-->

@@ -1,9 +1,25 @@
 <resources>
     <string name="app_name">ITESCAM</string>
-    <string name="welcome">Bienvenido a tu portal</string>
+    <string name="welcome">Hola, nombre</string>
     <string name="login">Inicia sesión</string>
     <string name="user">Usuario</string>
     <string name="password">Contraseña</string>
     <string name="singIn">Ingresar</string>
     <string name="remember">Recuerdame</string>
+
+    <string name="profile">Perfil</string>
+    <string name="notices">Avisos</string>
+    <string name="hour">Mi horario</string>
+    <string name="syllabus">Mi syllabus</string>
+    <string name="control">Control escolar</string>
+    <string name="logOut">Cerrar sesión</string>
+
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="thuersday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string name="today">Hoy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
