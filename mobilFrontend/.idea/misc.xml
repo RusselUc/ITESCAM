@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Irma Zi Canul/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/style_background.xml" value="0.1" />
+        <entry key="..\:/Users/Irma Zi Canul/Desktop/ITESCAM/mobilFrontend/app/src/main/res/drawable/style_button.xml" value="0.1325" />
+        <entry key="..\:/Users/Irma Zi Canul/Desktop/ITESCAM/mobilFrontend/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/russe/AndroidStudioProjects/ITESCAM/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
       </map>
     </option>
