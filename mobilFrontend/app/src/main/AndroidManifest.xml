@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ITESCAM">
         <activity
+            android:name=".view.SyllabusActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.ProfileActivity"
             android:exported="false" />
         <activity
